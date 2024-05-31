@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 import xgboost as xgb
 import numpy as np
 import matplotlib.pyplot as plt
-
+##
 # 주식 데이터 로드
 @st.cache_data
 def load_stock_data(ticker):
